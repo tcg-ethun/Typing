@@ -18,11 +18,11 @@ body{
 
 h2{
     border-right: 2px solid blue;
-    width: 18ch;
+    width: 22ch;
     text-wrap: nowrap;
     overflow: hidden;
      color: whitesmoke;
-     animation: typing 3s steps(50) infinite alternate-reverse;
+     animation: typing 3s steps(60) infinite alternate-reverse;
 }
 @keyframes typing {
     from{

@@ -25,7 +25,7 @@ body{
     width: 15ch;
     text-wrap: nowrap;
     overflow: hidden;
-    border-right: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(0, 0, 0);
 }
 
 @keyframes typing {
@@ -42,15 +42,14 @@ input{
     padding: 5px;
  text-align: center;
     background: transparent;
-    border-top: 2px solid black; border-right: 2px solid rgb(0, 0, 0); border-bottom: 2px solid rgb(255, 255, 255); border-left: 2px solid rgb(0, 0, 0);
-    
-    color: white;
+    border-top: 2px solid rgb(255, 255, 255); border-right: 2px solid rgb(255, 255, 255); border-bottom: 2px solid rgb(0, 0, 0); border-left: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* border-bottom: 2 px solid white; */
     outline: none;
 }
 
 input::placeholder{
-    color: rgb(182, 179, 179);
+    color: rgb(117, 116, 116);
 }
 
 button{

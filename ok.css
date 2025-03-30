@@ -17,7 +17,7 @@ body{
 }
 
 #type{
-    background:linear-gradient(to right, rgb(143, 143, 245) , rgb(243, 186, 217));
+    background:linear-gradient(to right, rgb(119, 119, 245) , rgb(250, 165, 212));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: name duration timing-function delay iteration-count direction fill-mode;

@@ -8,12 +8,13 @@ font-family: "Poppins";
 
 body{
     display: flex;
-    color: black;
+    color: white;  /* Changed from black to white for better contrast */
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 90vh;
     gap: 10px;
+    background-color: black; /* Added black background */
 }
 
 #type{
@@ -38,18 +39,19 @@ body{
 }
 
 input{
-    /* border: none; */
     padding: 5px;
- text-align: center;
+    text-align: center;
     background: transparent;
-    border-top: 2px solid rgb(255, 255, 255); border-right: 2px solid rgb(255, 255, 255); border-bottom: 2px solid rgb(0, 0, 0); border-left: 2px solid rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    /* border-bottom: 2 px solid white; */
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
+    border-right: 2px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgba(255, 255, 255, 0.1);
+    color: white; /* Changed from black to white */
     outline: none;
 }
 
 input::placeholder{
-    color: rgb(117, 116, 116);
+    color: rgb(150, 150, 150); /* Made placeholder slightly brighter */
 }
 
 button{

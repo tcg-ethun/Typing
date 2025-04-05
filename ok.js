@@ -15,3 +15,4 @@ let y = 0.3;
 let sum = `The Sum is ${(x)+ (y)}`
 
 console.log(sum);
+console.warn("Haha ! Hello Ethun ??")
